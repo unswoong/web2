@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #graph{
+            width: 700px;
+            overflow: hidden;
+            border: 2px solid black;
+            margin: 30px;
+        }
+        .box1 {
+            width: 30px;
+            height: 50px;
+            position: relative;
+            background-color: red;
+            margin: 10px;
+            transition-duration: 5s;
+            }
+        .box2 {
+            width: 30px;
+            height: 50px;
+            position: relative;
+            background-color: orange;
+            margin: 10px;
+            transition-duration: 5s;
+            }
+        .box3 {
+            width: 30px;
+            height: 50px;
+            position: relative;
+            background-color: yellow;
+            margin: 10px;
+            transition-duration: 5s;
+            }
+        .box4 {
+            width: 30px;
+            height: 50px;
+            position: relative;
+            background-color: green;
+            margin: 10px;
+            transition-duration: 5s;
+            }
+        .box5 {
+            width: 30px;
+            height: 50px;
+            position: relative;
+            background-color: blue;
+            margin: 10px;
+            transition-duration: 5s;
+            }
+     
+            #graph:hover .box1 {
+                width: 100px;
+            }
+            #graph:hover .box2 {
+                width: 200px;
+            }
+            #graph:hover .box3 {
+                width: 300px;
+            }
+            #graph:hover .box4 {
+                width: 400px;
+            }
+            #graph:hover .box5 {
+                width: 500px;
+            }
+            </style>
+</head>
+<body>
+    <div id="graph">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+    </div>
+</body>
+</html>
