@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 500px;
+            height: 500px;
+            background-color: gray;
+            position: relative;
+          
+        }
+        .red-box1 {
+            width: 50px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            left: 150px;
+            animation: box-animation 2s;
+            
+        
+        }
+        .red-box2 {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            left: 200px;
+            top: 70px;
+        }
+        .red-box3 {
+            width: 50px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            left: 250px;
+        }
+        @keyframes box-animation {
+            from { transform: scaleY(0%);
+                
+            }
+            to { transform: scaleY(100%);
+
+            }
+        }
+
+        
+    </style>
+</head>
+<body> 
+     <div class="box">  
+            <div class="red-box1"></div>
+            <div class="red-box2"></div>
+            <div class="red-box3"></div> 
+    </div>
+</body>
+</html>
